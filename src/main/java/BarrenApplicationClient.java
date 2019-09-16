@@ -33,10 +33,8 @@ public class BarrenApplicationClient {
 
             String output = barrenFertileLand.parseFertileFoundLand(input);
             System.out.println(output);
-        }
-
-        catch (Exception e) {
-            throw  new InValidInputException("given input is invalid");
+        } catch (Exception e) {
+            throw new InValidInputException("given input is invalid");
         }
 
 
