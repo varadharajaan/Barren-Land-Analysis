@@ -5,10 +5,20 @@ plugins {
 group 'Barren-land-analysis'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+version "${version}"
+sourceCompatibility = '1.8'
 
 repositories {
     mavenCentral()
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'jacoco'
+
+ext {
+    javaLanguageLevel = '1.8'
+
 }
 
 dependencies {
