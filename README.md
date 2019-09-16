@@ -28,3 +28,7 @@ Project can run in Java 1.8 compatible IDE(Intellij). Download zip file or clone
 **Testing**
 
 BarrenLandAnalysisText.java contains basic JUnit tests to test given test cases plus a few additional cases including tests for edge cases if entire grid is barren or if a very small portion is barren.
+
+**Build TOOL**
+
+GRADLE DEPENDENCY MANAGEMENT
