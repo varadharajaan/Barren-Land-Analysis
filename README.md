@@ -24,3 +24,7 @@ Output: 22816 192608
 **Steps to Follow to Make Code Run:**
 
 Project can run in Java 1.8 compatible IDE(Intellij). Download zip file or clone your machine, and Run as Java Application.
+
+**Testing**
+
+BarrenLandAnalysisText.java contains basic JUnit tests to test given test cases plus a few additional cases including tests for edge cases if entire grid is barren or if a very small portion is barren.
